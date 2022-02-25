@@ -335,19 +335,16 @@ start1 = datetime.now()
 
 train(d_model, g_model, gan_model, dataset, n_epochs=30, n_batch=1) 
 #Reports parameters for each batch (total 1096) for each epoch.
-#For 10 epochs we should see 10960
+#For 30 epochs we should see 32880
 
 stop1 = datetime.now()
 #Execution time of the model 
 execution_time = stop1-start1
 print("Execution time is: ", execution_time)
 
-#####
-# Model Saving Files need to come here
-#####
 
 #Reports parameters for each batch (total 1096) for each epoch.
-#For 10 epochs we should see 10960
+#For 32880 epochs we should see 10960
 
 #################################################
 
